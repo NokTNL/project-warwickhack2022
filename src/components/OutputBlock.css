@@ -1,0 +1,7 @@
+.output-block {
+  border: 1px solid black;
+}
+
+.output-block > img {
+  height: 5rem;
+}

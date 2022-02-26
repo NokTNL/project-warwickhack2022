@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/project-warwickhack2022/static/css/main.31d6cfe0.css",
+    "main.js": "/project-warwickhack2022/static/js/main.bc9bf1fd.js",
+    "index.html": "/project-warwickhack2022/index.html",
+    "main.bc9bf1fd.js.map": "/project-warwickhack2022/static/js/main.bc9bf1fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.bc9bf1fd.js"
+  ]
+}

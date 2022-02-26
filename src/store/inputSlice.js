@@ -8,9 +8,14 @@ const inputSlice = createSlice({
     imgUrl: "",
   },
   reducers: {
+    uploadFile(state, { payload }) {
+      const { url } = payload;
+      state.hasImg = true;
+      state.imgUrl = url;
+    },
+
     selectDemo(state, { payload }) {
       const { index } = payload;
-      console.log(index);
       state.hasImg = true;
       state.imgUrl = images[`demo${index}`];
     },

@@ -3,6 +3,7 @@ import { actions } from "../store/main";
 
 export default function Upload() {
 <<<<<<< HEAD
+<<<<<<< HEAD
   const dispatch = useDispatch();
 
   const handleFileUpload = (event) => {
@@ -24,6 +25,12 @@ export default function Upload() {
 
   return (
     <div>
+=======
+
+
+  return (
+    <div>
+>>>>>>> 28c17f7da33086bd1c3e954478f1b3765dfc2c2b
       <form onSubmit={{ handlesubmit }}>
         <input type='file' id='image' name='file' />
         <button type='submit'>Upload</button>

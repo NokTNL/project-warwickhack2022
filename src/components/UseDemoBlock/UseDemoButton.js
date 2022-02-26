@@ -8,5 +8,5 @@ export default function UseDemoButton({ index }) {
     dispatch(actions.input.selectDemo({ index: index }));
   };
 
-  return <button onClick={handleSelectDemo}>Use Demo {index}</button>;
+  return <button onClick={handleSelectDemo}>Example chord {index}</button>;
 }

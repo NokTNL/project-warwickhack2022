@@ -1,11 +1,8 @@
+import { useSelector } from "react-redux";
+import "./InputImage.css";
+
 export default function InputImage() {
-  return (
-    <div>
-      <img
-        className="input-image"
-        alt=""
-        src="https://upload.wikimedia.org/wikipedia/commons/5/57/Treble_a.svg"
-      />
-    </div>
-  );
+  const imgUrl = useSelector((state) => state.input.imgUrl);
+
+  return <img className="input-image" alt="" src={imgUrl} />;
 }

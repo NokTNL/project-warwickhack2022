@@ -1,3 +1,12 @@
+import { useDispatch } from "react-redux";
+import { actions } from "../../store/main";
+
 export default function UseDemoButton({ index }) {
-  return <button>Use Demo {index}</button>;
+  const dispatch = useDispatch();
+
+  const handleSelectDemo = () => {
+    dispatch(actions.input.selectDemo({ index: index }));
+  };
+
+  return <button onClick={handleSelectDemo}>Use Demo {index}</button>;
 }

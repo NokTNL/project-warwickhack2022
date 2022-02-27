@@ -1,6 +1,8 @@
 import { useDispatch } from "react-redux";
 import { actions } from "../../store/main";
 
+import Button from "@mui/material/Button";
+
 export default function UseDemoButton({ index }) {
   const dispatch = useDispatch();
 
@@ -8,5 +10,5 @@ export default function UseDemoButton({ index }) {
     dispatch(actions.input.selectDemo({ index: index }));
   };
 
-  return <button onClick={handleSelectDemo}>Example chord {index}</button>;
+  return <Button onClick={handleSelectDemo}>Example chord {index}</Button>;
 }

@@ -6,10 +6,15 @@ const inputSlice = createSlice({
   initialState: {
     hasImg: false,
     imgUrl: "",
+    key: "",
     // for demo & debug
     isUsingDemo: false,
   },
   reducers: {
+    inputKey(state, { payload }) {
+      const { key } = payload;
+      state.key = key;
+    },
     uploadFile(state, { payload }) {
       const { url } = payload;
       state.isUsingDemo = false;

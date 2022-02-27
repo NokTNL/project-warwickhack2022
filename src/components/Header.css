@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header > img {
+  height: 5rem;
+}
+
+header > h1 {
+  font-family: "Share Tech Mono";
+  font-size: 3rem;
+  padding-left: 0.8rem;
+  padding-right: 0.5rem;
+}

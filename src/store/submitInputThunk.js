@@ -1,6 +1,6 @@
 import { actions } from "./main";
 
-export default function submitInputThunk({ file, inputKey }) {
+export default function submitInputThunk({ file }) {
   return async (dispatch, getState) => {
     try {
       const isUsingDemo = getState().input.isUsingDemo;
@@ -10,6 +10,7 @@ export default function submitInputThunk({ file, inputKey }) {
         throw new Error("No image uploaded");
       }
 
+      const inputKey = getState().input.key;
       if (!inputKey) {
         alert("No key input!");
         throw new Error("No key input");

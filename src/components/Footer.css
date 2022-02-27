@@ -1,0 +1,15 @@
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > img {
+  margin-left: 0.4rem;
+  height: 1.5rem;
+
+  padding-bottom: 0.3rem;
+}

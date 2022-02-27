@@ -1,5 +1,6 @@
 import { useDispatch } from "react-redux";
 import submitInputThunk from "../../store/submitInputThunk";
+import Button from "@mui/material/Button";
 
 export default function SubmitInputButton() {
   const dispatch = useDispatch();
@@ -7,9 +8,16 @@ export default function SubmitInputButton() {
   const handleSubmitInput = () => {
     // get the File object from the input field that has id = "input-file" (i.e. in Upload.js)
     const file = document.getElementById("input-file").files[0];
-    const inputKey = document.querySelector(".input-key").value;
-    dispatch(submitInputThunk({ file, inputKey }));
+    dispatch(submitInputThunk({ file }));
   };
 
-  return <button onClick={handleSubmitInput}>Generate TAB</button>;
+  return (
+    <Button
+      sx={{ marginTop: "1rem" }}
+      variant="contained"
+      onClick={handleSubmitInput}
+    >
+      Ask robot!
+    </Button>
+  );
 }

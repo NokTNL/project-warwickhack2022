@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/project-warwickhack2022/static/css/main.b3216d23.css",
-    "main.js": "/project-warwickhack2022/static/js/main.c9afb75a.js",
+    "main.css": "/project-warwickhack2022/static/css/main.bd0fc2b1.css",
+    "main.js": "/project-warwickhack2022/static/js/main.193640d9.js",
     "static/media/demo2.png": "/project-warwickhack2022/static/media/demo2.30a173f469aa7c23e778.png",
+    "static/media/tensorflow.png": "/project-warwickhack2022/static/media/tensorflow.26c8c876a110df0ce512.png",
     "index.html": "/project-warwickhack2022/index.html",
-    "main.b3216d23.css.map": "/project-warwickhack2022/static/css/main.b3216d23.css.map",
-    "main.c9afb75a.js.map": "/project-warwickhack2022/static/js/main.c9afb75a.js.map"
+    "main.bd0fc2b1.css.map": "/project-warwickhack2022/static/css/main.bd0fc2b1.css.map",
+    "main.193640d9.js.map": "/project-warwickhack2022/static/js/main.193640d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3216d23.css",
-    "static/js/main.c9afb75a.js"
+    "static/css/main.bd0fc2b1.css",
+    "static/js/main.193640d9.js"
   ]
 }

@@ -1,3 +1,4 @@
 .input-image {
   height: 5rem;
+  filter: none !important;
 }

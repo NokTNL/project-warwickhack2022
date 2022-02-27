@@ -22,3 +22,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#ignore checkpoints
+python/.ipynb_checkpoints/*

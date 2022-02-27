@@ -3,8 +3,8 @@ A lot of guitar players learn to read guitar tabs, rather than sheet music. Howe
 
 # The solution
 Our website demo was devloped to show the results of a machine learning model. We have developed one possible implementation and the code for the development is within the python folder as NoteRecog.ipynb. As we made the dataset for this model ourselves the model is far from perfect but in the future we can incorporate other data sources and create a more accurate model with the similar architecture and design. Currently the model is not connected to the live website.
-
+<p align="center">
 ![image](https://user-images.githubusercontent.com/91389960/155878073-812eff1a-a59e-4d78-a690-cd91cd517897.png)
-
+</p>
 # Live preview
 https://noktnl.github.io/project-warwickhack2022/

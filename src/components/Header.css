@@ -3,15 +3,22 @@
 header {
   display: flex;
   align-items: center;
+  height: 95vh;
+  background-color: #1976d2;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
-header > img {
-  height: 5rem;
+img {
+  height: 10rem;
+  -webkit-filter: invert(1);
+   filter: invert(1);
 }
 
-header > h1 {
-  font-family: "Share Tech Mono";
+.mainText {
+  font-family: "Share Tech Mono" !important;
   font-size: 3rem;
   padding-left: 0.8rem;
   padding-right: 0.5rem;
+  color: white;
 }

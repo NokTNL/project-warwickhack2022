@@ -3,6 +3,7 @@ import { actions } from "./main";
 export default function submitInputThunk({ file }) {
   return async (dispatch, getState) => {
     try {
+      dispatch(actions.output.hideOutput());
       const isUsingDemo = getState().input.isUsingDemo;
 
       if (!file && !isUsingDemo) {

@@ -1,15 +1,15 @@
-import useState from 'react';
-import exampleImg from '../img/demo1.png'
+import { useState } from "react";
+import exampleImg from "../img/demo1.png";
 import { Typography, Container, Button, Modal, Box } from "@mui/material";
-import InfoIcon from '@mui/icons-material/Info';
+import InfoIcon from "@mui/icons-material/Info";
 
 export default function HelpModal() {
-    const [open, setOpen] = useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
-    return (
-      <div>
+  return (
+    <div>
       <Button onClick={handleOpen}>Open modal</Button>
       <Modal
         open={open}
@@ -31,11 +31,13 @@ export default function HelpModal() {
             Output
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            The output will return notes/chords in guitar tab notation.
-            The below tabs mean you have to put a finger each on the first fret of the G string, second fret of the D string, and second fret of the A string.
-            (The (e) string in standard tuning is on the bottom of your guitar, and is the thinnest)
+            The output will return notes/chords in guitar tab notation. The
+            below tabs mean you have to put a finger each on the first fret of
+            the G string, second fret of the D string, and second fret of the A
+            string. (The (e) string in standard tuning is on the bottom of your
+            guitar, and is the thinnest)
           </Typography>
-          <div >
+          <div>
             {[
               <div>e|------------------|</div>,
               <div>B|------------------|</div>,
@@ -48,7 +50,5 @@ export default function HelpModal() {
         </Box>
       </Modal>
     </div>
-
-    );
-
+  );
 }

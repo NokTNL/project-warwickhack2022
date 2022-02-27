@@ -12,7 +12,7 @@ export default function InputBlock() {
   const hasImg = useSelector((state) => state.input.hasImg);
 
   return (
-    <Container sx={{ mt: '50px' }}>
+    <Container sx={{ mt: "50px" }}>
       {hasImg && <InputImage />}
       <InputKey />
       <SubmitInputButton />
